@@ -3,7 +3,7 @@ package com.home.sandbox.typeConversion;
 public class TypeConversion {
     public static void main(String[] args) {
         byte b;
-        int i =257;
+        int i =387;
         double d = 323.142;
 
         System.out.println("\nType conversion from int to byte.");
