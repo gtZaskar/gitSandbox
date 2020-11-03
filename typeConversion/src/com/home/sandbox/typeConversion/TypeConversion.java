@@ -1,6 +1,6 @@
 package com.home.sandbox.typeConversion;
 
-public class TypeConversion {
+public class TypeConversion { //page96
     public static void main(String[] args) {
         byte b;
         int i =257;
