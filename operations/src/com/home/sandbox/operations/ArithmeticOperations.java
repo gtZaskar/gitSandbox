@@ -1,6 +1,6 @@
 package com.home.sandbox.operations;
 
-public class ArithmeticOperations {
+public class ArithmeticOperations { //page110
     public static void main(String[] args) {
         //arithmetic operations on integer values
         System.out.println("integer arithmetic");

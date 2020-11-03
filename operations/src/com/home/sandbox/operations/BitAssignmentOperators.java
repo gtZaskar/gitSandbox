@@ -1,17 +1,18 @@
 package com.home.sandbox.operations;
 
-public class IncrementOperation { //page113
+public class BitAssignmentOperators { //page123
     public static void main(String[] args) {
         int a = 1;
         int b = 2;
-        int c ;
-        int d;
-        c=++b;
-        d=a++;
-        c++;
+        int c = 3;
+
+        a|=4;
+        b>>=1;
+        c<<=1;
+        a^=c;
+
         System.out.println("a = " +a);
         System.out.println("b = " +b);
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
+        System.out.println("c = " +c);
     }
 }
