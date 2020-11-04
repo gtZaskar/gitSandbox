@@ -1,6 +1,6 @@
 package com.home.sandbox.arrays;
 
-public class ThreeMatrix {
+public class ThreeMatrix { //105
     public static void main(String[] args) {
         int[][][] threeD = new int[3][4][5];
         for (int i =0; i<threeD.length;i++){

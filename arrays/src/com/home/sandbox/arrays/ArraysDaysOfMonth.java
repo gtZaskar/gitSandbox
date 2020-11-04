@@ -1,6 +1,6 @@
 package com.home.sandbox.arrays;
 
-public class ArraysDaysOfMonth {
+public class ArraysDaysOfMonth { //page100
     public static void main(String[] args) {
         int month_days[];
         month_days = new int[12];

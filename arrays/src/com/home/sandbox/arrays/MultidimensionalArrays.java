@@ -1,6 +1,6 @@
 package com.home.sandbox.arrays;
 
-public class MultidimensionalArrays {
+public class MultidimensionalArrays { //105
     public static void main(String[] args) {
         int[] number = {1, 2, 3};
         for (int nameNumber : number) {

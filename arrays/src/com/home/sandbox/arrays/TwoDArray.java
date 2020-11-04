@@ -1,6 +1,6 @@
 package com.home.sandbox.arrays;
 
-public class TwoDArray {
+public class TwoDArray { //page103
     public static void main(String[] args) {
         int twoD[][] = new int[4][5];
         int i, j, k= 0;
