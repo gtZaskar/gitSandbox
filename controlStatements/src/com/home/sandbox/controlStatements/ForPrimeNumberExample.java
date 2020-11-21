@@ -2,21 +2,32 @@ package com.home.sandbox.controlStatements;
 
 public class ForPrimeNumberExample { //page146
     public static void main(String[] args) {
-        int num =5;
-        boolean isPrime=false;
+        int num = 6;
+        boolean isPrime;
 
-      if (num<2)
-           isPrime =false;
-       else isPrime = true;
+        if (num < 2)
+            isPrime =false;
+            else isPrime = true;
 
-       for (int i=2;i<=num/i;i++){
-           if ((num%i)==0){
-               isPrime=false;
-               break;
-           }
-       }
-       if (isPrime)
-           System.out.println("prime number");
-       else System.out.println("do not prime number");
-           }
-}
+       // System.out.println(isPrime + " 1");
+
+            for (int i = 2; i <= num / i; i++) {
+               // System.out.println("iteration " + i);
+                if ((num % i) == 0) {
+                    isPrime = false;
+break;
+                   //System.out.println(isPrime + " 1.5");
+
+                }
+                //System.out.println(isPrime + " 2");
+            }
+       // System.out.println(isPrime+" 3");
+            if (isPrime) {
+                System.out.println("prime number");
+            } else {
+                System.out.println("do not prime number");
+            }
+
+
+        }
+    }
