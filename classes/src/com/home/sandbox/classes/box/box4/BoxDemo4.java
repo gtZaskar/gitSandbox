@@ -20,5 +20,8 @@ public class BoxDemo4 {//page 174
         vol=mybox2.volume();
         System.out.println("volume equal : " + vol);
 
+        System.out.println("volume equal : " + mybox1.volume());
+        System.out.println("volume equal : " +mybox2.volume());
+
     }
 }
