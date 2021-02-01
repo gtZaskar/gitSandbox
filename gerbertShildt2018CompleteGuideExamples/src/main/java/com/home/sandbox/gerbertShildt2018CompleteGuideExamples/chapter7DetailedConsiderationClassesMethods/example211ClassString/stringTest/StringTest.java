@@ -1,4 +1,4 @@
-package main.java.com.home.sandbox.gerbertShildt2018CompleteGuideExamples.chapter7DetailedConsiderationClassesMethods.example211ClassString;
+package main.java.com.home.sandbox.gerbertShildt2018CompleteGuideExamples.chapter7DetailedConsiderationClassesMethods.example211ClassString.stringTest;
 
 public class StringTest {
     public static void main(String[] args) {
